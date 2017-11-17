@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>網站標頭</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<style>
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 700;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 400;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+ }    
+    body{
+        font-family: 'Noto Sans TC';
+        font-weight: 700;
+    }
+    
+    #main{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .logo{
+        text-align: center;
+        padding-top: 35px
+    }
+    .menu{
+        margin-top: 45px;
+        border-top: 1px solid #8A8000;
+        border-bottom: 1px solid #8A8000;
+    }
+    .menu_child{
+        width: 33%;
+        display: inline-block;
+        text-align: center;
+        height: 75px;
+        line-height: 75px;
+        font-size: 25px;
+        text-decoration: none;
+        color: black
+    }
+    .menu_child:hover{
+        background-color: #DCDDDD;
+    }
+    .menu_child:hover span{
+        color: #898000;
+    }
+    .menu_child span{
+        color: #898000;
+    }
+    .text{
+        padding: 15px 0;
+    }
+    
+    #footer{
+        background-color:#8A8000;
+        height: 150px;
+    }
+    .footer_wrap{
+        width: 1000px;
+        margin: 0 auto;
+        padding-top: 25px;
+        color: #fff;
+    }
+    .footer_left{
+        display: inline-block;
+        width: 50%
+    }
+    .footer_right{
+        display: inline-block;
+        width: 50%;
+        margin-left: -4px;
+        text-align: right;
+    }
+    .footer_left div{
+        display: inline-block;
+        margin-right: 12px
+    }
+    .product{
+        margin-bottom: 30px;
+        border-bottom: 1px solid #8A8000;
+    }
+    .product_child{
+        border: 1px solid #8A8000;
+        border-bottom: none;
+        padding: 7px
+    }
+    .product_child_item{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .money{
+        margin-top: 130px;
+        color: #8A8000;
+        font-weight: bold;
+    }
+    .w1{
+        width: 200px;
+    }
+    .w1 img{
+        width: 100%;
+    }
+    .w2{
+       width: 420px;
+       padding-left: 15px
+    }
+    .w3{
+        width: 350px;
+    }
+    .z1{
+        border-bottom: 1px solid #8A8000;
+        padding-bottom: 5px
+    }
+    .zz1{
+        display: inline-block;
+        width: 50%;
+        margin-left: -4px;
+        padding-top: 8px;
+        vertical-align: middle;
+    }
+    .aa1{
+        background-color: #8A8000;
+        display: inline-block;
+        width: 100px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+    }
+</style>
+<body>
+	<div id="main">
+	    <div class="logo">
+	        <img src="images/logo.png" alt="">
+	    </div>
+	    <div class="menu">
+	        <a href="index2.html" class="menu_child">介紹 <span>About</span></a>
+	        <a href="index_fb.html" class="menu_child">遊戲 <span>Games</span></a>
+	        <a href="index.html" class="menu_child">商店 <span>Shop</span></a>
+	    </div>
+        <div class="text">
+            歡迎來到此木創遊網路商店！在這裡您可以找到我們嚴選的出版品，預購期間享有優惠，敬請把握機會！本次商店為慶祝 《福爾摩斯大對決》上市，優惠期間為9/16-10/6，優惠期間享免運優惠。選定您喜歡的方案，點選右側 「立即購買」 按鈕 結帳，對結帳程序有問題可以來信詢問：dasholzspiele@gmail.com
+        </div>
+	    <div class="product">
+	        <div class="product_child">
+	            <div class="product_child_item w1"><img src="images/p1.png" alt=""></div>
+	            <div class="product_child_item w2">
+	                <div>福爾摩斯大對決 <br>Holmes: Sherlock & Mycroft</div>
+	                <div class="money">建議售價690</div>
+	            </div>
+	            <div class="product_child_item w3">
+	                <div class="z1">商品說明</div>
+	                <div>
+	                    <div class="zz1">一套方案 / 特價 $590</div>
+	                    <div class="zz1" style="text-align: right">
+	                        <a href="#" class="aa1">立即購買</a>
+	                    </div>
+	                </div>
+	                <div>1 套主遊戲<br>1 張預購贈品米寶貼</div>
+	                <div>
+	                    <div class="zz1">一套方案 / 特價 $590</div>
+	                    <div class="zz1" style="text-align: right">
+	                        <a href="#" class="aa1">立即購買</a>
+	                    </div>
+	                </div>
+	                <div>1 套主遊戲<br>1 張預購贈品米寶貼</div>
+	            </div>
+	        </div>
+	        <div class="product_child">
+	            <div class="product_child_item w1"><img src="images/p2.png" alt=""></div>
+	            <div class="product_child_item w2">
+	                <div>福爾摩斯大對決 <br>Holmes: Sherlock & Mycroft</div>
+	                <div class="money">建議售價690</div>
+	            </div>
+	            <div class="product_child_item w3">
+	                <div class="z1">商品說明</div>
+	                <div>
+	                    <div class="zz1">一套方案 / 特價 $590</div>
+	                    <div class="zz1" style="text-align: right">
+	                        <a href="#" class="aa1">立即購買</a>
+	                    </div>
+	                </div>
+	                <div>1 套主遊戲<br>1 張預購贈品米寶貼</div>
+	                <div>
+	                    <div class="zz1">一套方案 / 特價 $590</div>
+	                    <div class="zz1" style="text-align: right">
+	                        <a href="#" class="aa1">立即購買</a>
+	                    </div>
+	                </div>
+	                <div>1 套主遊戲<br>1 張預購贈品米寶貼</div>
+	            </div>
+	        </div>
+	        <div class="product_child">
+	            <div class="product_child_item w1"><img src="images/p3.png" alt=""></div>
+	            <div class="product_child_item w2">
+	                <div>福爾摩斯大對決 <br>Holmes: Sherlock & Mycroft</div>
+	                <div class="money">建議售價690</div>
+	            </div>
+	            <div class="product_child_item w3">
+	                <div class="z1">商品說明</div>
+	                <div>
+	                    <div class="zz1">一套方案 / 特價 $590</div>
+	                    <div class="zz1" style="text-align: right">
+	                        <a href="#" class="aa1">立即購買</a>
+	                    </div>
+	                </div>
+	                <div>1 套主遊戲<br>1 張預購贈品米寶貼</div>
+	                <div>
+	                    <div class="zz1">一套方案 / 特價 $590</div>
+	                    <div class="zz1" style="text-align: right">
+	                        <a href="#" class="aa1">立即購買</a>
+	                    </div>
+	                </div>
+	                <div>1 套主遊戲<br>1 張預購贈品米寶貼</div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div id="footer">
+        <div class="footer_wrap">
+            <div class="footer_left">
+                <div>aFacebook</div>
+                <div>Twitter</div>
+                <div>Instagram</div>
+                <div>Contact</div>
+            </div>
+            <div class="footer_right">© 2017 此木創遊 The Wood Games</div>
+	    </div>
+	</div>
+</body>
+
+</html>

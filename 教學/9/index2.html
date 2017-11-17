@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>網站標頭</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<style>
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 700;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 400;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+ }    
+    body{
+        font-family: 'Noto Sans TC';
+        font-weight: 700;
+    }
+    
+    #main{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .logo{
+        text-align: center;
+        padding-top: 35px
+    }
+    .menu{
+        margin-top: 45px;
+        border-top: 1px solid #8A8000;
+        border-bottom: 1px solid #8A8000;
+    }
+    .menu_child{
+        width: 33%;
+        display: inline-block;
+        text-align: center;
+        height: 75px;
+        line-height: 75px;
+        font-size: 25px;
+        text-decoration: none;
+        color: black
+    }
+    .menu_child:hover{
+        background-color: #DCDDDD;
+    }
+    .menu_child:hover span{
+        color: #898000;
+    }
+    .menu_child span{
+        color: #898000;
+    }
+    .text{
+        padding: 15px 0;
+    }
+    
+    #footer{
+        background-color:#8A8000;
+        height: 150px;
+    }
+    .footer_wrap{
+        width: 1000px;
+        margin: 0 auto;
+        padding-top: 25px;
+        color: #fff;
+    }
+    .footer_left{
+        display: inline-block;
+        width: 50%
+    }
+    .footer_right{
+        display: inline-block;
+        width: 50%;
+        margin-left: -4px;
+        text-align: right;
+    }
+    .footer_left div{
+        display: inline-block;
+        margin-right: 12px
+    }
+    .product{
+        margin-bottom: 30px;
+        border-bottom: 1px solid #8A8000;
+    }
+    .product_child{
+        border: 1px solid #8A8000;
+        border-bottom: none;
+        padding: 7px
+    }
+    .product_child_item{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .money{
+        margin-top: 130px;
+        color: #8A8000;
+        font-weight: bold;
+    }
+    .w1{
+        width: 200px;
+    }
+    .w1 img{
+        width: 100%;
+    }
+    .w2{
+       width: 420px;
+       padding-left: 15px
+    }
+    .w3{
+        width: 350px;
+    }
+    .z1{
+        border-bottom: 1px solid #8A8000;
+        padding-bottom: 5px
+    }
+    .zz1{
+        display: inline-block;
+        width: 50%;
+        margin-left: -4px;
+        padding-top: 8px;
+        vertical-align: middle;
+    }
+    .aa1{
+        background-color: #8A8000;
+        display: inline-block;
+        width: 100px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    #ifram_main{
+        width: 100%;
+        height: 1500px;
+    }
+    #google_map{
+        margin-top: 15px;
+        width: 100%;
+        height: 550px;
+    }
+    #youtube{
+        width: 100%;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+</style>
+<body>
+	<div id="main">
+	    <div class="logo">
+	        <img src="images/logo.png" alt="">
+	    </div>
+	    <div class="menu">
+	        <a href="index2.html" class="menu_child">介紹 <span>About</span></a>
+	        <a href="index_fb.html" class="menu_child">遊戲 <span>Games</span></a>
+	        <a href="index.html" class="menu_child">商店 <span>Shop</span></a>
+	    </div>
+        <div style="padding-top: 15px;">
+            	<iframe id="ifram_main" src="https://docs.google.com/forms/d/e/1FAIpQLSfDLc8OSGwesrBmdB2nipkid2SuabmimaZl7iCBLFaJ2STeTQ/viewform?usp=sf_link" frameborder="0"></iframe>
+        </div>
+        <div>
+            <iframe id="google_map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14463.309218425826!2d121.45133129999999!3d25.00598345!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1510938062369" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/3tmd-ClpJxA" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+	</div>
+	<div id="footer">
+        <div class="footer_wrap">
+            <div class="footer_left">
+                <div>aFacebook</div>
+                <div>Twitter</div>
+                <div>Instagram</div>
+                <div>Contact</div>
+            </div>
+            <div class="footer_right">© 2017 此木創遊 The Wood Games</div>
+	    </div>
+	</div>
+</body>
+
+</html>
